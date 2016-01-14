@@ -1,0 +1,303 @@
+{
+	"id": "55c85afb2468440011000029",
+	"name": "freel6-als",
+	"about": "fasdfsad dfsaf dsafdsdfs fjdsaklfnlksad nf;dsa lfdsa f dsafdkas;kfj adsfjkda fklsaj f;jsad ;ljasdj f;asdj fsajd ;fj sda;lf sa dfdkja fjsadljf asjddklf jsdjf;sad fdjas ;fkj ;ajskfd;asdlkjf;jdasjf ;jasdf ;ja;lkjdfkl;aj;dfj a;dsjfad ;ljasdj f;asdj fsajd ;fj sda;lf sa dfdkja fjsadljf asjddklf jsdjf;sad",
+	"location": {
+		"timezone": {
+			"daylightSaving": false
+		},
+		"coordinates": {
+			"lat": 0,
+			"lon": 0
+		},
+		"countryCode": "",
+		"city": ""
+	},
+	"contacts": { },
+	"registered": "2015-08-10T08:04:11.394Z",
+	"photo": "http://marketplace-dev.als.local:8083/api/v1/file/27a159bee443fcc648b7081d61df43de",
+	"profileSaved": false,
+	"educations": [
+		{
+			"id": "5631dcd5eee0af001000004b",
+			"country": "RU",
+			"university": "Bauman Moscow State Technical University",
+			"majorSubject": "dddddddddddddddddddffffffffffff dsaf ds afdjsljkjdkdkkfdsfsakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+		}
+	],
+	"status": {
+		"visibility": "PUBLIC",
+		"activity": "ACTIVE"
+	},
+	"services": [
+		{
+			"id": "5640ccdd76e4ef000f000021",
+			"sourceLang": "zh-Hans-CN",
+			"targetLang": "en",
+			"types": [ ],
+			"genres": [ ],
+			"taxonomies": [ ],
+			"taxonomiesInactive": null
+		},
+		{
+			"id": "563371124be374000e000027",
+			"sourceLang": "en",
+			"targetLang": "ru",
+			"types": [
+				{
+					"id": 0,
+					"type": "TRANSLATION",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.1,
+							"perWord": 0.1,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.094,
+							"perWord": 0.094,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 6.466,
+							"perWord": 6.466,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					],
+					"metaInfo": {
+						"calcsAmount": 17,
+						"tests": [
+							{
+								"status": "ACTIVE",
+								"taxonomy": "ENGINEERING"
+							}
+						]
+					}
+				},
+				{
+					"id": 0,
+					"type": "EDITING",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.015,
+							"perWord": 0.015,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.0141,
+							"perWord": 0.0141,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 0.9699,
+							"perWord": 0.9699,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					],
+					"metaInfo": {
+						"calcsAmount": 82,
+						"tests": [
+							{
+								"status": "ACTIVE",
+								"taxonomy": "MEDICINE_AND_PHARMACEUTICS_-_PHARMACEUTICS"
+							}
+						]
+					}
+				}
+			],
+			"genres": [ ],
+			"taxonomies": [
+				"ARTS_AND_CULTURE",
+				"AVIATION_AND_SPACE",
+				"BIOLOGY",
+				"CONSTRUCTION",
+				"CHEMISTRY"
+			],
+			"taxonomiesInactive": null
+		},
+		{
+			"id": "56543d6b878213000e00001e",
+			"sourceLang": "en-GB",
+			"targetLang": "zh-Hans-CN",
+			"types": [
+				{
+					"id": 0,
+					"type": "TRANSLATION",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.015,
+							"perWord": 0.015,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.0141,
+							"perWord": 0.0141,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 0.9699,
+							"perWord": 0.9699,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					],
+					"metaInfo": {
+						"calcsAmount": 25,
+						"tests": [
+							{
+								"status": "ACTIVE",
+								"taxonomy": "MEDICINE_AND_PHARMACEUTICS_-_VETERINARY_MEDICINE"
+							},
+							{
+								"status": "ACTIVE",
+								"taxonomy": "FOOD_AND_DRINKS"
+							},
+							{
+								"status": "ACTIVE",
+								"taxonomy": "ECONOMICS"
+							}
+						]
+					}
+				}
+			],
+			"genres": [ ],
+			"taxonomies": [ ],
+			"taxonomiesInactive": null
+		},
+		{
+			"id": "567285dc613035001300002f",
+			"sourceLang": "ru",
+			"targetLang": "en",
+			"types": [
+				{
+					"id": 0,
+					"type": "TRANSLATION",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.015,
+							"perWord": 0.015,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.0141,
+							"perWord": 0.0141,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 0.9699,
+							"perWord": 0.9699,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					]
+				},
+				{
+					"id": 0,
+					"type": "EDITING",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.017,
+							"perWord": 0.017,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.016,
+							"perWord": 0.016,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 1.0992,
+							"perWord": 1.0992,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					]
+				}
+			],
+			"genres": [ ],
+			"taxonomies": [ ],
+			"taxonomiesInactive": null
+		}
+	],
+	"qualityRating": {
+		"score": 0.37825263,
+		"acceptableCount": 95,
+		"unacceptableCount": 37,
+		"recommendedCount": 29
+	},
+	"timeRating": {
+		"score": 0.35,
+		"unacceptableCount": 3,
+		"recommendedCount": 54
+	},
+	"yearOfExperience": 2008,
+	"certificates": [
+		{
+			"id": "56719de2e31bec005000001d",
+			"name": "fdsafdsa",
+			"yearOfIssue": 2015,
+			"files": [
+				{
+					"id": "56719ddde31bec005000001b",
+					"name": "sample_1.txt"
+				},
+				{
+					"id": "5671a7a6e31bec001100001f",
+					"name": "Топоркова Ольга Дмитриевна.pdf"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	"id": "55abd37dda5a2b000d000030",
+	"name": "freelancer4",
+	"location": {
+		"timezone": {
+			"standardName": "Russia TZ 2 Standard Time",
+			"offsetInMinutes": 180,
+			"daylightSaving": false
+		},
+		"coordinates": {
+			"lat": 0,
+			"lon": 0
+		},
+		"countryCode": "RU",
+		"city": "Moscow"
+	},
+	"contacts": { },
+	"registered": "2015-07-19T16:42:37.691Z",
+	"photo": "",
+	"profileSaved": false,
+	"status": {
+		"visibility": "PUBLIC",
+		"activity": "ACTIVE"
+	},
+	"nativeLanguages": [
+		"ru"
+	],
+	"services": [
+		{
+			"id": "55abd39ada5a2b000d000033",
+			"sourceLang": "en",
+			"targetLang": "ru",
+			"types": [
+				{
+					"id": 0,
+					"type": "TRANSLATION",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.05,
+							"perWord": 0.05,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.047,
+							"perWord": 0.047,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 3.233,
+							"perWord": 3.233,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					]
+				}
+			],
+			"genres": [ ],
+			"taxonomies": [
+				"AGRICULTURE",
+				"ARTS_AND_CULTURE",
+				"AVIATION_AND_SPACE",
+				"BIOLOGY"
+			],
+			"taxonomiesInactive": null
+		},
+		{
+			"id": "55abd3a7da5a2b000d000034",
+			"sourceLang": "ru",
+			"targetLang": "en",
+			"types": [
+				{
+					"id": 0,
+					"type": "TRANSLATION",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.05,
+							"perWord": 0.05,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.047,
+							"perWord": 0.047,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 3.233,
+							"perWord": 3.233,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					]
+				}
+			],
+			"genres": [ ],
+			"taxonomies": [
+				"AGRICULTURE",
+				"ARTS_AND_CULTURE",
+				"AVIATION_AND_SPACE",
+				"BIOLOGY"
+			],
+			"taxonomiesInactive": null
+		}
+	],
+	"qualityRating": { },
+	"timeRating": { }
+}

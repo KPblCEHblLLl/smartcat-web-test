@@ -1,0 +1,100 @@
+{
+	"id": "55e9569f6d33b1001000004e",
+	"name": "freelancer2525",
+	"contacts": { },
+	"registered": "2015-09-04T08:30:23.75Z",
+	"photo": "",
+	"profileSaved": false,
+	"status": {
+		"visibility": "PUBLIC",
+		"activity": "ACTIVE"
+	},
+	"services": [
+		{
+			"id": "55e956ac6d33b10010000050",
+			"sourceLang": "en",
+			"targetLang": "ru",
+			"types": [
+				{
+					"id": 0,
+					"type": "TRANSLATION",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.05,
+							"perWord": 0.05,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.047,
+							"perWord": 0.047,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 3.233,
+							"perWord": 3.233,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					]
+				}
+			],
+			"genres": [ ],
+			"taxonomies": [ ],
+			"taxonomiesInactive": null
+		},
+		{
+			"id": "55e95de06d33b10010000055",
+			"sourceLang": "en",
+			"targetLang": "ko",
+			"types": [
+				{
+					"id": 0,
+					"type": "TRANSLATION",
+					"status": "NOT_TESTED",
+					"tariffs": [
+						{
+							"price": 0.05,
+							"perWord": 0.05,
+							"currency": "USD",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true,
+							"isBase": true
+						},
+						{
+							"price": 0.047,
+							"perWord": 0.047,
+							"currency": "EUR",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						},
+						{
+							"price": 3.233,
+							"perWord": 3.233,
+							"currency": "RUB",
+							"unitsAmount": 1,
+							"unitsType": "WORD",
+							"isMain": true
+						}
+					]
+				}
+			],
+			"genres": [ ],
+			"taxonomies": [ ],
+			"taxonomiesInactive": null
+		}
+	],
+	"qualityRating": { },
+	"timeRating": { }
+}

@@ -26,4 +26,8 @@ ws
 
 Страница входа http://localhost:8080/authorization.html
 
+* Выбираем авторизацию кнопкой Manager или Freelancer
+* Запускаем поиск кнопкой Search
+* Переходим на профиль кнопкой Open Profile
+
 

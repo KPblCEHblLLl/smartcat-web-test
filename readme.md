@@ -12,7 +12,7 @@
 ``` text
 npm install -g webpack
 npm install -g webpack-dev-server
-npm install -g ws
+npm install -g local-web-server
 npm install
 ```
 

@@ -55,9 +55,10 @@ const common = {
 		extensions: ["", ".js", ".jsx", "es6"]
 	},
 	entry: {
-		authorization: PATHS.app + "/page/Authorization.jsx",
-		profile: PATHS.app + "/page/Profile.jsx",
-		search: PATHS.app + "/page/Search.jsx",
+		//authorization: PATHS.app + "/page/Authorization.jsx",
+		//profile: PATHS.app + "/page/Profile.jsx",
+		//search: PATHS.app + "/page/Search.jsx",
+		bundle: PATHS.app + '/app.js'
 	},
 	//entry: path.join(PATHS.app, "page"),
 	react: {
@@ -93,26 +94,33 @@ const common = {
 			names: ["react"]
 		}),
 		new HtmlwebpackPlugin({
-			chunks: ["authorization", "react"],
+			chunks: ["bundle", "react"],
 			template: "node_modules/html-webpack-template/index.html",
-			filename: "authorization.html",
-			title: "SmartCAT Web Test: Authorization",
+			filename: "index.html",
+			title: "SmartCAT Web Test App",
 			appMountId: "app"
 		}),
-		new HtmlwebpackPlugin({
-			chunks: ["profile", "react"],
-			template: "node_modules/html-webpack-template/index.html",
-			filename: "profile.html",
-			title: "SmartCAT Web Test: Profile",
-			appMountId: "app"
-		}),
-		new HtmlwebpackPlugin({
-			chunks: ["search", "react"],
-			template: "node_modules/html-webpack-template/index.html",
-			filename: "search.html",
-			title: "SmartCAT Web Test: Search",
-			appMountId: "app"
-		}),
+		//new HtmlwebpackPlugin({
+		//	chunks: ["authorization", "react"],
+		//	template: "node_modules/html-webpack-template/index.html",
+		//	filename: "authorization.html",
+		//	title: "SmartCAT Web Test: Authorization",
+		//	appMountId: "app"
+		//}),
+		//new HtmlwebpackPlugin({
+		//	chunks: ["profile", "react"],
+		//	template: "node_modules/html-webpack-template/index.html",
+		//	filename: "profile.html",
+		//	title: "SmartCAT Web Test: Profile",
+		//	appMountId: "app"
+		//}),
+		//new HtmlwebpackPlugin({
+		//	chunks: ["search", "react"],
+		//	template: "node_modules/html-webpack-template/index.html",
+		//	filename: "search.html",
+		//	title: "SmartCAT Web Test: Search",
+		//	appMountId: "app"
+		//}),
 	]
 };
 

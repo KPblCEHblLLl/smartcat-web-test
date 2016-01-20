@@ -3,6 +3,7 @@
  * @module
  */
 import React from "react";
+import { Link } from 'react-router'
 import Card from 'material-ui/lib/card/card';
 import CardHeader from 'material-ui/lib/card/card-header';
 import CardText from 'material-ui/lib/card/card-text';
@@ -20,7 +21,8 @@ const descrStyle = {
 export default class FreelancerCard extends React.Component {
 	render() {
 		let freelancer = this.props.freelancer;
-		let link = "/profile.html?id=" + freelancer.id;
+		//let link = "/profile.html?id=" + freelancer.id;
+        let link = { pathname: '/profile', query: { id: freelancer.id } };
 		let service = freelancer.services[0];
 		let type = service && service.types[0];
 		let tariff = type && type.tariffs[0];
@@ -41,9 +43,9 @@ export default class FreelancerCard extends React.Component {
 			<Card>
 				<CardHeader>
 					{this.props.freelancer.name}
-					<a href={link} style={buttonStyle}>
+					<Link to={link} style={buttonStyle}>
 						<RaisedButton label="Open Profile"/>
-					</a>
+					</Link>
 				</CardHeader>
 				<CardText>
 					{pairEl}

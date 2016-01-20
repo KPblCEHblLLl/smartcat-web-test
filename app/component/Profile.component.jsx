@@ -53,8 +53,8 @@ export default class Profile extends React.Component {
 			);
 		}
 
-		let servicesEl = profile.services.map((service) => {
-			let lypesEl = service.types.map((type) => {
+		let servicesEl = profile.services.map((service, ix) => {
+			let lypesEl = service.types.map((type, ix) => {
 				let tariff = type.tariffs[0];
 
 				let tariffEl;
@@ -62,7 +62,7 @@ export default class Profile extends React.Component {
 					tariffEl = <span>{tariff.perWord} {tariff.currency}</span>
 				}
 				return (
-					<div>
+					<div key={ix}>
 						<span>{type.type}</span>
 						{tariffEl}
 					</div>
@@ -70,7 +70,7 @@ export default class Profile extends React.Component {
 			});
 
 			return (
-				<Card>
+				<Card key={ix}>
 					<CardHeader>{service.sourceLang} - {service.targetLang}</CardHeader>
 					<CardText>
 						{lypesEl}

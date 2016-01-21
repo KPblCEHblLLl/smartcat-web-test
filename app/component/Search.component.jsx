@@ -50,8 +50,8 @@ export default class Search extends React.Component {
 				<RaisedButton label="Do Search" onClick={doSearch} secondary/>
 				<div className="search__list">
 					{this.state.list.map((item, key) =>
-					<FreelancerCard key={key} freelancer={item} />
-						)}
+						<FreelancerCard key={key} freelancer={item} />
+					)}
 				</div>
 				{total}
 			</div>

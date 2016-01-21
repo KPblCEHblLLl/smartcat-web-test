@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router'
 import cookie from "react-cookie";
 import RaisedButton from 'material-ui/lib/raised-button';
 
@@ -18,17 +19,22 @@ export default class Header extends React.Component {
 		}
 	}
 
+	static contextTypes = {
+		router: React.PropTypes.object.isRequired
+	};
+
 	logOut() {
 		cookie.save("role", "");
-		location.href = "/authorization.html";
+		//location.href = "/authorization.html";
+        this.context.router.push('/');
 	}
 
 	render() {
 		return (
 			<div style={style}>
-				<a style={searchButtonStyle} href="/search.html"><RaisedButton label="Search" /></a>
+                <Link style={searchButtonStyle} to="/search"><RaisedButton label="Search" /></Link>
 				<span>{this.state.role}</span>
-				<RaisedButton label="Log Out" onClick={this.logOut} />
+				<RaisedButton label="Log Out" onClick={this.logOut.bind(this)} />
 				<hr/>
 			</div>
 		);
